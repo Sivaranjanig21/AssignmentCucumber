@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103370" started-at="2021-10-27T19:34:29 IST" finished-at="2021-10-27T19:36:12 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@55b699ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="103370" started-at="2021-10-27T19:34:29 IST" finished-at="2021-10-27T19:36:12 IST">
+      <class name="runner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.CucumberRunner@55b699ef]" name="setUpClass" is-config="true" duration-ms="746" started-at="2021-10-27T19:34:29 IST" finished-at="2021-10-27T19:34:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@55b699ef]" name="runScenario" duration-ms="34741" started-at="2021-10-27T19:34:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-27T19:35:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Create an Account with valid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the My Store Application functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@55b699ef]" name="runScenario" duration-ms="64318" started-at="2021-10-27T19:35:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-27T19:36:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Create an Account with valid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the My Store Application functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@55b699ef]" name="tearDownClass" is-config="true" duration-ms="3355" started-at="2021-10-27T19:36:09 IST" finished-at="2021-10-27T19:36:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
